@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icon_delete"
+        android:icon="@drawable/delete_24px"
+        android:title="Delete"
+        android:background="@drawable/menu_roundbackground" />
+    <item
+        android:id="@+id/icon_edit"
+        android:icon="@drawable/edit_24px"
+        android:title="Edit"
+        android:background="@drawable/menu_roundbackground" />
+    <item
+        android:id="@+id/icon_add"
+        android:icon="@drawable/add_24px"
+        android:title="Add"
+        android:background="@drawable/menu_roundbackground" />
+</menu>

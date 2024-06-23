@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/rvjhf0lcwdz7"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginHorizontal="9dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rectangle_layout_default"
+        android:elevation="4dp"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="9dp"
+            android:text="FRI"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/rs47zt6ch20k"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_layout_default"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textColor="#B3000000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6/7/2024"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rkeu6ebnbjt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rogx76dx6etn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_layout_default"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Money:"
+                android:textColor="#B3000000"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/current_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Money: $5000"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rke5h7szxj1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:background="@drawable/rectangle_layout_default"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/rvjhf0lcwdz7"
+        app:layout_constraintStart_toStartOf="@+id/rvjhf0lcwdz7"
+        app:layout_constraintTop_toBottomOf="@+id/rvjhf0lcwdz7">
+
+        <LinearLayout
+            android:id="@+id/rirby4nk87x"
+            android:layout_width="70dp"
+            android:layout_height="95dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rectangle_layout_default"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="#B3000000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:textColor="#000000"
+                android:justificationMode="none"
+                android:fontFamily="@font/sfprobold"
+                android:gravity="center"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/r7wgh0r0zhza"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/r5v37hd0ds09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_layout_default"
+                android:elevation="4dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingVertical="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mode of Payment"
+                    android:textColor="#B3000000"
+                    android:textSize="5sp" />
+
+                <TextView
+                    android:id="@+id/mode_of_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/r176es5c6u6i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_layout_default"
+                android:elevation="4dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingVertical="6dp">
+
+                <TextView
+                    android:id="@+id/details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details"
+                    android:textColor="#B3000000"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rz5p324r71yq"
+            android:layout_width="71dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/rectangle_layout_default"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="17dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Savings:"
+                android:textColor="#B3000000"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/saved_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saved: $50"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ry79kdh6uj8q"
+            android:layout_width="71dp"
+            android:layout_height="75dp"
+            android:background="@drawable/rectangle_layout_default"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Costs:"
+                android:textColor="#B3000000"
+                android:textSize="8sp" />
+            <TextView
+                android:id="@+id/expenses_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expenses: 10$"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

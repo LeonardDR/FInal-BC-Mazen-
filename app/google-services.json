@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947475606277",
+    "project_id": "allowancetrackerappmazen",
+    "storage_bucket": "allowancetrackerappmazen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947475606277:android:bc4a19db494cf6a550e56c",
+        "android_client_info": {
+          "package_name": "com.example.yawa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY7HFCWm4ksthRks_fRc3U-Jp9u_eWhec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

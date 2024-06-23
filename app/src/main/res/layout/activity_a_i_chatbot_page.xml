@@ -1,0 +1,181 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    <ScrollView
+        android:id="@+id/r58i3f8id5on"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="11dp"
+        android:fillViewport="true"
+        android:background="@drawable/bckgrnd_color_default">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rv5158f1uha9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#B3EAEAEA"
+                android:elevation="4dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ryot1589vkbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginBottom="13dp"
+                    android:elevation="4dp"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:paddingVertical="9dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/ri1y6mjgmgli"
+                        android:layout_width="25dp"
+                        android:layout_height="26dp"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gemini_logo"
+                        app:shapeAppearanceOverlay="@style/cr8" />
+
+                    <TextView
+                        android:id="@+id/r3x5apezfb37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/magra_regular"
+                        android:text="Gemini"
+                        android:textColor="#A890FE"
+                        android:textSize="20sp"
+
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hello_there"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="17dp"
+                    android:fontFamily="@font/magra_regular"
+                    android:text="Hello there!"
+                    android:textColor="#A890FE"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:id="@+id/rv1wbmka2v7l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginBottom="26dp"
+                    android:fontFamily="@font/magra_regular"
+                    android:text="How can I help you today?"
+                    android:textColor="#B3000000"
+                    android:textSize="40sp" />
+
+                <LinearLayout
+                    android:id="@+id/rwvmrq4b0ozj"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginBottom="26dp"
+
+                    android:background="@drawable/rectangle_layout_default"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/reb351ltvt3o"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/magra_regular"
+                        android:text="How can I create a budget that works for me?"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r9ro4pt1nnup"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginBottom="114dp"
+                    android:background="@drawable/rectangle_layout_default"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/r0kkgevi1k09f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/magra_regular"
+                        android:text="What are some good strategies for saving money?"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/rofszawez7i"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginHorizontal="8dp"
+                        android:background="@drawable/rectangle_layout_default"
+                        android:elevation="4dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="11dp">
+
+                        <TextView
+                            android:id="@+id/rvx4lz2nuqz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/magra_regular"
+                            android:hint="Enter a prompt here"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/rztw16h2cay"
+                            android:layout_width="26dp"
+                            android:layout_height="28dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/baseline_arrow_circle_right_24" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

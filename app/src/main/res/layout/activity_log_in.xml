@@ -1,0 +1,112 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/rfeks97wo5gg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_layout_default2"
+        android:orientation="vertical"
+        android:paddingHorizontal="39dp"
+        android:paddingTop="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rcuup85zmkef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/majormonodisplay"
+                android:gravity="center"
+                android:text="Allowance Tracker"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rm7f9ftwew7m"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:layout_marginBottom="48dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_mazen"
+                app:shapeAppearanceOverlay="@style/cr16" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+            <TextView
+                android:id="@+id/rrrrbotqj8sg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/rectangle_layout_default"
+                android:elevation="4dp"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:orientation="vertical"
+                android:paddingHorizontal="13dp"
+                android:paddingVertical="17dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/r111uoi9r08ta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/pass_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_layout_default"
+                android:elevation="4dp"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:orientation="vertical"
+                android:paddingHorizontal="13dp"
+                android:paddingVertical="18dp" />
+        </LinearLayout>
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/button_login"
+                android:fontFamily="@font/sfpromedium"
+                android:text="Login"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
